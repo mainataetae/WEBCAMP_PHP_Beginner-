@@ -8,5 +8,3 @@ echo $string_dot;
 
 $string_dquote = "{$string_1}{$string_2} \n";
 echo $string_dquote;
-
-
