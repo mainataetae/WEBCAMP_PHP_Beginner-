@@ -19,3 +19,22 @@ while($i < 10){
     }
     ++$i;
 }
+
+echo "\n break2 \n";
+for($i = 0; $i < 10; ++$i){
+    echo "{$i} \n";
+    if($i >=5){
+        echo"{$i}なので抜けます \n";
+        break;
+    }
+}
+
+echo "\n continue2 \n";
+$i = 0;
+while($i < 5){
+    ++$i;
+    if($i === 3){
+        continue;
+    }
+    echo "{$i} \n";
+}
