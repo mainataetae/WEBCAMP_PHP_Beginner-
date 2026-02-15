@@ -16,3 +16,14 @@ function math(int $l,int $o) : int
 
 $p = math(3,4);
 echo "{$p} \n";
+
+function myFuncStringAdd(string $s1, string $s2) : string
+{
+    //
+    $ret = "{$s1}{$s2}";
+
+    //
+    return $ret;
+}
+//
+echo myFuncStringAdd("make", " function");
